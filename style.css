@@ -423,3 +423,42 @@ background-color: transparent;
     font-weight: 500;
     margin-left: 8px;
 }
+
+.old0comment .acomment-action {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.old-comment .acomment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.old-comment .acomment-action spain{
+    margin-right: 20px;
+    color: grey;
+}
+.old-comment .acomment-action a{
+color: blue;
+}
+
+@media (max-width:900ox){
+    .play-video{
+        flex-basis:100%
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .vid-discription{
+        padding-left: 0;
+    }
+    .playvideo .play-video-info a{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
